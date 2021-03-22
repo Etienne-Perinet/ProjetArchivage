@@ -67,9 +67,9 @@ namespace Archivage
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(340, 13);
+            this.label2.Size = new System.Drawing.Size(139, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Deuxième base de données où aucun employé ne doit avoir été ajouté";
+            this.label2.Text = "Deuxième base de données";
             // 
             // btnSearchFileBD2
             // 

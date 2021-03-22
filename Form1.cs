@@ -136,7 +136,7 @@ namespace Archivage
 
             LoadMonths();
 
-            LoadTestValue();
+            //LoadTestValue();
         }
 
         private void LoadMonths()
@@ -205,15 +205,17 @@ namespace Archivage
 
         private void btnEmploye_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Si vous utilisez une base de données secondaire, sachez que l'application" +
-                " ne pourra pas supporter la fusion de cette base de données à la base de données principale si vous effectuez cette manoeuvre" +
-                "\n\nLa fusion de votre base de données risque très fortement de ne plus être possible si celle-ci est défini comme étant base de " +
-                "données secondaire. Voulez-vous vraiment continuer?", "AVERTISSEMENT!", MessageBoxButtons.YesNo);
-            if (result == System.Windows.Forms.DialogResult.Yes)
-            {
-                EmployeForm employeForm = new EmployeForm();
-                employeForm.Show();
-            }
+            //DialogResult result = MessageBox.Show("Si vous utilisez une base de données secondaire, sachez que l'application" +
+            //    " ne pourra pas supporter la fusion de cette base de données à la base de données principale si vous effectuez cette manoeuvre" +
+            //    "\n\nLa fusion de votre base de données risque très fortement de ne plus être possible si celle-ci est défini comme étant base de " +
+            //    "données secondaire. Voulez-vous vraiment continuer?", "AVERTISSEMENT!", MessageBoxButtons.YesNo);
+            //if (result == System.Windows.Forms.DialogResult.Yes)
+            //{
+            //     
+
+            //}
+            EmployeForm employeForm = new EmployeForm();
+            employeForm.Show();
         }
 
         private void btnMerge_Click(object sender, EventArgs e)

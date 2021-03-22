@@ -68,8 +68,7 @@ namespace Archivage
 
         private void MergeBD_Load(object sender, EventArgs e)
         {
-            txtPathBD1.Text = "C:\\Users\\etien\\OneDrive\\Desktop\\1_Gouv\\Archivage\\Archivage\\bin\\Debug\\BDArchive.db";
-            txtPathBD2.Text = "C:\\Users\\etien\\OneDrive\\Desktop\\1_Gouv\\Archivage\\2BDArchive.db";
+            
         }
     }
 }
